@@ -4,6 +4,7 @@
 /
     Cache-Control: public, max-age=86400, stale-while-revalidate=86400
     Link: </assets/style.css>; rel=preload; as=style
+    Link: </assets/icons.css>; rel=preload; as=image
 
 /assets/*
     ! Content-Security-Policy
