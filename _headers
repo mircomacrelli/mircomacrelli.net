@@ -3,6 +3,8 @@
 
 /
     Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+    Link: </assets/style.css>; rel=preload; as=style
 
 /assets/*
+    ! Content-Security-Policy
     Cache-Control: public, max-age=31536000, immutable
